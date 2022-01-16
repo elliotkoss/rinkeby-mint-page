@@ -14,5 +14,6 @@
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea Test Net",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/fnftm-tip0gen0",
-  "SHOW_BACKGROUND": false
+  "SHOW_BACKGROUND": false,
+  "OTHER_NFT_LINK": "https://futurenftmints.com/genesis-nft.html"
 }

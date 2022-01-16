@@ -273,9 +273,14 @@ function App() {
                   Excluding gas fees.
                 </s.TextDescription>
                 <s.SpacerSmall />
-                <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
-                  View the collection on {CONFIG.MARKETPLACE}.
-                </StyledLink>
+                <s.TextDescription
+                  style={{
+                    textAlign: "center",
+                    color: "var(--accent-text)",
+                  }}
+                >
+                  View the collection on <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>{CONFIG.MARKETPLACE}</StyledLink>.
+                </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
@@ -384,6 +389,17 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            This was a test mint. You can <StyledLink target={"_blank"} href={CONFIG.OTHER_NFT_LINK}>
+            learn more about Future NFT Mints' upcoming Genesis NFT.
+          </StyledLink>
+          </s.TextDescription>
+          <s.SpacerSmall />
           <s.TextDescription
             style={{
               textAlign: "center",
